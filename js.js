@@ -26,7 +26,7 @@ image.src = "https://i.imgflip.com/6f04o5.jpg"
 canvas.width = window.innerWidth
 canvas.height = window.innerHeight
 function draw() {
-    if (i < 1) {
+    if (i < 10) {
         i++
         requestAnimationFrame(draw);
     }
