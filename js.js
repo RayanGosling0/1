@@ -167,4 +167,9 @@ document.addEventListener('keydown', function (e) {
         dx = 0;
     }
 });
+let first = true
+let audio = document.querySelector("audio")
+document.onclick = function () {
+    if (first == true) audio.play()
+}
 requestAnimationFrame(loop);
